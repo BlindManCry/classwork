@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="main-container-1">
+        <div class="container-1">
+          <div class="mini-container-1">
+            <p class="purple-hover">
+              English <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </p>
+            <p class="line">|</p>
+            <p class="purple-hover">
+              USD <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </p>
+            <p class="line">|</p>
+            <p>Call Us 3965410</p>
+          </div>
+        </div>
+        <div class="container-2">
+          <p>Free delivery on order over <span class="different">$200</span></p>
+        </div>
+      </div>
+      <hr />
+      <div class="main-container-2">
+        <div class="container-3"><img src="images/logo.webp" alt="logo" /></div>
+        <div>
+          <div class="mini-container-2">
+            <p class="purple-hover">
+              Home<i class="fa fa-angle-down" aria-hidden="true"></i>
+            </p>
+            <p class="purple-hover">
+              Shop<i class="fa fa-angle-down" aria-hidden="true"></i>
+            </p>
+            <p class="purple-hover">Collection</p>
+            <p class="purple-hover">
+              Pages<i class="fa fa-angle-down" aria-hidden="true"></i>
+            </p>
+            <p class="purple-hover">
+              Blog<i class="fa fa-angle-down" aria-hidden="true"></i>
+            </p>
+            <p class="purple-hover">Contact</p>
+          </div>
+        </div>
+        <div class="container-4">
+          <div class="mini-container-3">
+            <i class="fa-solid fa-magnifying-glass purple-hover icon"></i>
+            <i class="fa-solid fa-person-dress purple-hover icon"></i>
+            <i class="fa-regular fa-heart purple-hover icon"></i>
+            <div class="message-container">
+              <i class="fa-solid fa-bag-shopping purple-hover icon message"></i>
+              <p class="message-top cursor">02</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="middle">
+      <p class="middle-child"><span class="purple-hover">HOME</span> / SHOP</p>
+    </div>
+    <div class="main-middle-1">
+      <div class="middle-1"><p class="text-1">Search</p></div>
+      <div class="middle-2">
+        <div class="mini-middle-1">
+          <select class="select-tag" name="size" id="size">
+            <option value="Sort By newness">sort by newness</option>
+            <option value="A to Z">A to Z</option>
+            <option value="Z to A">Z to A</option>
+            <option value="In stock">In stock</option>
+          </select>
+          <p class="text-2">Showing 1-12 of 20 result</p>
+        </div>
+      </div>
+      <div class="middle-3">
+        <div class="mini-middle-2">
+          <i class="fa-solid fa-table-cells icon-1"></i>
+          <i class="fa-solid fa-list-ul icon-2"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="big-container">
+      <div class="half-1">
+        <div class="input-pro">
+          <input class="input-1" type="text" placeholder="Search here..." />
+          <p class="line">|</p>
+          <i class="fa-solid fa-magnifying-glass purple-hover icon"></i>
+        </div>
+        <div class="mini-half-1">
+          <p class="text-3">Refine By</p>
+        </div>
+        <div>
+          <form>
+            <div class="checkbox-1">
+              <div class="mini-checkbox-1">
+                <input class="cursor" type="checkbox" />
+                <label class="purple-hover" for="checkbox">On Sale</label>
+              </div>
+              <p class="text-4 purple-hover-1">4</p>
+            </div>
+            <div class="checkbox-2">
+              <div class="mini-checkbox-2">
+                <input class="cursor" type="checkbox" />
+                <label class="purple-hover" for="checkbox">New</label>
+              </div>
+              <p class="text-4 purple-hover-1">4</p>
+            </div>
+            <div class="checkbox-3">
+              <div class="mini-checkbox-3">
+                <input class="cursor" type="checkbox" />
+                <label class="purple-hover" for="checkbox">In Stock</label>
+              </div>
+              <p class="text-4 purple-hover-1">4</p>
+            </div>
+          </form>
+        </div>
+        <div class="mini-half-2">
+          <p class="text-3">Filter By Price</p>
+        </div>
+        <div class="mini-half-3">
+          <div class="small-flex-1">
+            <p id="rangeValue">400</p>
+            <span>$</span>
+          </div>
+          <input
+            class="slider"
+            type="range"
+            min="16"
+            max="400"
+            value="100"
+            oninput="rangeValue.innerText = this.value"
+          />
+        </div>
+        <div class="mini-half-4">
+          <p class="text-3">Color</p>
+        </div>
+        <div class="mini-half-5">
+          <div class="checkbox-4">
+            <div class="mini-checkbox-4">
+              <input class="cursor" type="checkbox" />
+              <label class="purple-hover" for="checkbox">Green</label>
+            </div>
+            <p class="text-4 purple-hover-1">4</p>
+          </div>
+          <div class="checkbox-5">
+            <div class="mini-checkbox-5">
+              <input class="cursor" type="checkbox" />
+              <label class="purple-hover" for="checkbox">Cream</label>
+            </div>
+            <p class="text-4 purple-hover-1">4</p>
+          </div>
+          <div class="checkbox-6">
+            <div class="mini-checkbox-6">
+              <input class="cursor" type="checkbox" />
+              <label class="purple-hover" for="checkbox">Blue</label>
+            </div>
+            <p class="text-4 purple-hover-1">4</p>
+          </div>
+          <div class="checkbox-7">
+            <div class="mini-checkbox-7">
+              <input class="cursor" type="checkbox" />
+              <label class="purple-hover" for="checkbox">Black</label>
+            </div>
+            <p class="text-4 purple-hover-1">4</p>
+          </div>
+        </div>
+        <div class="mini-half-6">
+          <p class="text-3">Size</p>
+        </div>
+        <div class="mini-half-7">
+          <div class="checkbox-8">
+            <div class="mini-checkbox-8">
+              <input class="cursor" type="checkbox" />
+              <label class="purple-hover" for="checkbox">XL</label>
+            </div>
+            <p class="text-4 purple-hover-1">4</p>
+          </div>
+          <div class="checkbox-9">
+            <div class="mini-checkbox-9">
+              <input class="cursor" type="checkbox" />
+              <label class="purple-hover" for="checkbox">L</label>
+            </div>
+            <p class="text-4 purple-hover-1">4</p>
+          </div>
+          <div class="checkbox-10">
+            <div class="mini-checkbox-10">
+              <input class="cursor" type="checkbox" />
+              <label class="purple-hover" for="checkbox">SM</label>
+            </div>
+            <p class="text-4 purple-hover-1">4</p>
+          </div>
+          <div class="checkbox-11">
+            <div class="mini-checkbox-11">
+              <input class="cursor" type="checkbox" />
+              <label class="purple-hover" for="checkbox">XXL</label>
+            </div>
+            <p class="text-4 purple-hover-1">4</p>
+          </div>
+        </div>
+        <div class="mini-half-8">
+          <p class="text-3">Tag</p>
+        </div>
+        <div class="mini-half-9">
+          <div class="mini-text-1">
+            <p class="text-5">Clothing</p>
+            <p class="text-5">Accessories</p>
+          </div>
+          <div class="mini-text-2">
+            <p class="text-5">For Men</p>
+            <p class="text-5">Women</p>
+          </div>
+          <div class="mini-text-3">
+            <p class="text-5">Fasion</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="half-2">
+        <div class="half-mini-1">
+          <div class="image-and-text-1">
+            <div class="image-1">
+              <img src="images/pro-1.webp" alt="clothe" />
+              <span class="text-on-photo-1">-10%</span>
+            </div>
+            <div class="icons-with-text">
+              <p class="same-text">T- Shirt And Jeans</p>
+              <div class="star-icons">
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p class="price">
+                $ 60.00 - <span class="old-price">$ 60.00</span>
+              </p>
+            </div>
+            <div class="hidden-text-1">
+              <i class="fa-regular fa-heart heart"></i>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</span
+              >
+              <i class="fa-regular fa-eye eye"></i>
+            </div>
+          </div>
+          <div class="image-and-text-2">
+            <div class="image-2">
+              <img src="images/pro-2.webp" alt="clothe" />
+              <span class="text-on-photo-2">New</span>
+            </div>
+            <div class="icons-with-text">
+              <p class="same-text">T- Shirt And Jeans</p>
+              <div class="star-icons">
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p class="price">$ 60.00</p>
+            </div>
+            <div class="hidden-text-2">
+              <i class="fa-regular fa-heart heart"></i>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</span
+              >
+              <i class="fa-regular fa-eye eye"></i>
+            </div>
+          </div>
+          <div class="image-and-text-3">
+            <div class="image-1">
+              <img src="images/pro-3.webp" alt="clothe" />
+              <span class="text-on-photo-1">-10%</span>
+            </div>
+            <div class="icons-with-text">
+              <p class="same-text">T- Shirt And Jeans</p>
+              <div class="star-icons">
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p class="price">
+                  $ 60.00 - <span class="old-price">$ 60.00</span>
+                </p>
+              </div>
+              <div class="hidden-text-3">
+                <i class="fa-regular fa-heart heart"></i>
+                <span class="cart"
+                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</span
+                >
+                <i class="fa-regular fa-eye eye"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="half-mini-2">
+          <div class="image-and-text-4">
+            <div class="image-4">
+              <img src="images/pro-4.webp" alt="clothe" />
+              <span class="text-on-photo-2">New</span>
+            </div>
+            <div class="icons-with-text">
+              <p class="same-text">T- Shirt And Jeans</p>
+              <div class="star-icons">
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p class="price">$ 60.00</p>
+            </div>
+            <div class="hidden-text-4">
+              <i class="fa-regular fa-heart heart"></i>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</span
+              >
+              <i class="fa-regular fa-eye eye"></i>
+            </div>
+          </div>
+          <div class="image-and-text-5">
+            <div class="image-5">
+              <img src="images/pro-5.webp" alt="clothe" />
+              <span class="text-on-photo-1">-10%</span>
+            </div>
+            <div class="icons-with-text">
+              <p class="same-text">T- Shirt And Jeans</p>
+              <div class="star-icons">
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p class="price">
+                $ 60.00 - <span class="old-price">$ 60.00</span>
+              </p>
+            </div>
+            <div class="hidden-text-5">
+              <i class="fa-regular fa-heart heart"></i>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</span
+              >
+              <i class="fa-regular fa-eye eye"></i>
+            </div>
+          </div>
+          <div class="image-and-text-6">
+            <div class="image-6">
+              <img src="images/pro-6.webp" alt="clothe" />
+              <span class="text-on-photo-2">New</span>
+            </div>
+            <div class="icons-with-text">
+              <p class="same-text">T- Shirt And Jeans</p>
+              <div class="star-icons">
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p class="price">$ 60.00</p>
+              </div>
+              <div class="hidden-text-6">
+                <i class="fa-regular fa-heart heart"></i>
+                <span class="cart"
+                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</span
+                >
+                <i class="fa-regular fa-eye eye"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="half-mini-3">
+          <div class="image-and-text-7">
+            <div class="image-7">
+              <img src="images/pro-7.webp" alt="clothe" />
+              <span class="text-on-photo-1">-10%</span>
+            </div>
+            <div class="icons-with-text">
+              <p class="same-text">T- Shirt And Jeans</p>
+              <div class="star-icons">
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p class="price">
+                $ 60.00 - <span class="old-price">$ 60.00</span>
+              </p>
+            </div>
+            <div class="hidden-text-7">
+              <i class="fa-regular fa-heart heart"></i>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</span
+              >
+              <i class="fa-regular fa-eye eye"></i>
+            </div>
+          </div>
+          <div class="image-and-text-8">
+            <div class="image-8">
+              <img src="images/pro-8.webp" alt="clothe" />
+              <span class="text-on-photo-2">New</span>
+            </div>
+            <div class="icons-with-text">
+              <p class="same-text">T- Shirt And Jeans</p>
+              <div class="star-icons">
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <p class="price">$ 60.00</p>
+            </div>
+            <div class="hidden-text-8">
+              <i class="fa-regular fa-heart heart"></i>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</span
+              >
+              <i class="fa-regular fa-eye eye"></i>
+            </div>
+          </div>
+          <div class="image-and-text-9">
+            <div class="image-9">
+              <img src="images/pro-1.webp" alt="clothe" />
+              <span class="text-on-photo-1">-10%</span>
+            </div>
+            <div class="icons-with-text">
+              <p class="same-text">T- Shirt And Jeans</p>
+              <div class="star-icons">
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star colored-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p class="price">
+                  $ 60.00 - <span class="old-price">$ 60.00</span>
+                </p>
+              </div>
+              <div class="hidden-text-9">
+                <i class="fa-regular fa-heart heart"></i>
+                <span class="cart"
+                  ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</span
+                >
+                <i class="fa-regular fa-eye eye"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pages">
+          <span class="side-left"><<</span>
+          <span class="page-1">1</span>
+          <span class="page-2">2</span>
+          <span class="side-right">>></span>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="main-footer">
+        <div class="mini-footer-1">
+          <img src="images/logo.webp" alt="logo" />
+          <p>© 2021 <span class="purple-hover">Flone.</span></p>
+          <p>All Rights Reserved</p>
+        </div>
+        <div class="mini-footer-2">
+          <p class="footer-title">ABOUT US</p>
+          <p class="common-color purple-hover">about us</p>
+          <p class="common-color purple-hover">Store location</p>
+          <p class="common-color purple-hover">Contact</p>
+          <p class="common-color purple-hover">Orders tracking</p>
+        </div>
+        <div class="mini-footer-3">
+          <p class="footer-title">USEFUL LINKS</p>
+          <p class="common-color purple-hover">Returns</p>
+          <p class="common-color purple-hover">Support Policy</p>
+          <p class="common-color purple-hover">Size guide</p>
+          <p class="common-color purple-hover">FAQs</p>
+        </div>
+        <div class="mini-footer-4">
+          <p class="footer-title">FOLLOW US</p>
+          <p class="common-color purple-hover">Facebook</p>
+          <p class="common-color purple-hover">Twitter</p>
+          <p class="common-color purple-hover">Instagram</p>
+          <p class="common-color purple-hover">Youtube</p>
+        </div>
+        <div class="mini-footer-5">
+          <p class="footer-title">SUBSCRIBE</p>
+          <p class="common-color email-update">
+            Get E-mail updates about our latest shop and special offers.
+          </p>
+          <input
+            class="email-input"
+            type="text"
+            placeholder="Enter your email here"
+          />
+          <a href="">Subscribe</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
